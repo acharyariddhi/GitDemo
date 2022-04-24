@@ -40,6 +40,7 @@ public class LoginPageTest extends Base{
 			Assert.assertEquals(lp.errorMsg(), prop.getProperty("errormsg"));
 		}
 		log.debug("Landed on home page");
+		log.debug("TocheckGIT");
 	}
 	
 	
