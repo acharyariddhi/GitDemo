@@ -86,7 +86,6 @@ public class PageTests extends Base {
 		//Assert.assertTrue(false);
 		ckp.finishBtn().click();
 		log.debug("Checked out");
-		log.debug("To check git");		
 	}
 	
 	
