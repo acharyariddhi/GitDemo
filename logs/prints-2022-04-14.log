@@ -1,0 +1,13 @@
+20:50:09.900 [TestNG-tests-1] INFO  resources.Base - Landed on login page
+20:50:10.160 [TestNG-tests-1] DEBUG resources.Base - Passed standard_user as username
+20:50:10.277 [TestNG-tests-1] DEBUG resources.Base - Passed secret_sauce as password
+20:50:10.287 [TestNG-tests-2] INFO  resources.Base - Logged in
+20:50:10.497 [TestNG-tests-2] DEBUG resources.Base - sauce labs backpack added to cart
+20:50:10.689 [TestNG-tests-1] INFO  resources.Base - Landed on login page
+20:50:10.787 [TestNG-tests-2] DEBUG resources.Base - sauce labs onesie added to cart
+20:50:10.857 [TestNG-tests-1] DEBUG resources.Base - Passed locked_out_user as username
+20:50:10.984 [TestNG-tests-1] DEBUG resources.Base - Passed secret_sauce as password
+20:50:11.075 [TestNG-tests-2] DEBUG resources.Base - Selected dropdown
+20:50:11.300 [TestNG-tests-2] DEBUG resources.Base - Checked out
+20:50:11.335 [TestNG-tests-1] INFO  resources.Base - Landed on login page
+20:50:11.501 [TestNG-tests-1] DEBUG resources.Base - Passed problem_user as username

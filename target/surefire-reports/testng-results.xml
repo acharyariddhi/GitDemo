@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19156" started-at="2022-04-18T22:18:21 IST" finished-at="2022-04-18T22:18:41 IST">
+    <groups>
+    </groups>
+    <test name="Home Page Test" duration-ms="14648" started-at="2022-04-18T22:18:21 IST" finished-at="2022-04-18T22:18:36 IST">
+      <class name="framework.tests.PageTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:framework.tests.PageTests@4c2bb6e0]" name="setUp" is-config="true" duration-ms="12344" started-at="2022-04-18T22:18:21 IST" finished-at="2022-04-18T22:18:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="selectItems()[pri:0, instance:framework.tests.PageTests@4c2bb6e0]" name="selectItems" duration-ms="521" started-at="2022-04-18T22:18:34 IST" finished-at="2022-04-18T22:18:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectItems -->
+        <test-method status="PASS" signature="checkDropdown()[pri:0, instance:framework.tests.PageTests@4c2bb6e0]" name="checkDropdown" duration-ms="256" started-at="2022-04-18T22:18:35 IST" finished-at="2022-04-18T22:18:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDropdown -->
+        <test-method status="PASS" signature="addItems()[pri:0, instance:framework.tests.PageTests@4c2bb6e0]" name="addItems" duration-ms="443" started-at="2022-04-18T22:18:35 IST" depends-on-methods="framework.tests.PageTests.selectItems" finished-at="2022-04-18T22:18:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItems -->
+        <test-method status="PASS" signature="checkOut()[pri:0, instance:framework.tests.PageTests@4c2bb6e0]" name="checkOut" duration-ms="357" started-at="2022-04-18T22:18:36 IST" depends-on-methods="framework.tests.PageTests.addItems" finished-at="2022-04-18T22:18:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOut -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:framework.tests.PageTests@4c2bb6e0]" name="tearDown" is-config="true" duration-ms="51" started-at="2022-04-18T22:18:36 IST" finished-at="2022-04-18T22:18:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- framework.tests.PageTests -->
+    </test> <!-- Home Page Test -->
+    <test name="Login Test" duration-ms="19156" started-at="2022-04-18T22:18:21 IST" finished-at="2022-04-18T22:18:41 IST">
+      <class name="framework.tests.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:framework.tests.LoginPageTest@3e2055d6]" name="setUp" is-config="true" duration-ms="7614" started-at="2022-04-18T22:18:21 IST" finished-at="2022-04-18T22:18:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:framework.tests.LoginPageTest@3e2055d6]" name="setData" is-config="true" duration-ms="3998" started-at="2022-04-18T22:18:29 IST" finished-at="2022-04-18T22:18:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="checkLoginPage(java.lang.String)[pri:0, instance:framework.tests.LoginPageTest@3e2055d6]" name="checkLoginPage" duration-ms="654" started-at="2022-04-18T22:18:33 IST" data-provider="getData" finished-at="2022-04-18T22:18:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLoginPage -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:framework.tests.LoginPageTest@3e2055d6]" name="setData" is-config="true" duration-ms="119" started-at="2022-04-18T22:18:34 IST" finished-at="2022-04-18T22:18:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="checkLoginPage(java.lang.String)[pri:0, instance:framework.tests.LoginPageTest@3e2055d6]" name="checkLoginPage" duration-ms="266" started-at="2022-04-18T22:18:34 IST" data-provider="getData" finished-at="2022-04-18T22:18:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLoginPage -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:framework.tests.LoginPageTest@3e2055d6]" name="setData" is-config="true" duration-ms="120" started-at="2022-04-18T22:18:35 IST" finished-at="2022-04-18T22:18:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="checkLoginPage(java.lang.String)[pri:0, instance:framework.tests.LoginPageTest@3e2055d6]" name="checkLoginPage" duration-ms="246" started-at="2022-04-18T22:18:35 IST" data-provider="getData" finished-at="2022-04-18T22:18:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLoginPage -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:framework.tests.LoginPageTest@3e2055d6]" name="setData" is-config="true" duration-ms="35" started-at="2022-04-18T22:18:35 IST" finished-at="2022-04-18T22:18:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="checkLoginPage(java.lang.String)[pri:0, instance:framework.tests.LoginPageTest@3e2055d6]" name="checkLoginPage" duration-ms="5339" started-at="2022-04-18T22:18:35 IST" data-provider="getData" finished-at="2022-04-18T22:18:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLoginPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:framework.tests.LoginPageTest@3e2055d6]" name="tearDown" is-config="true" duration-ms="41" started-at="2022-04-18T22:18:41 IST" finished-at="2022-04-18T22:18:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- framework.tests.LoginPageTest -->
+    </test> <!-- Login Test -->
+  </suite> <!-- Suite -->
+</testng-results>

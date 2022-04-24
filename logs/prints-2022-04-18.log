@@ -1,0 +1,14 @@
+22:18:35.339 [TestNG-tests-1] DEBUG resources.Base - Passed secret_sauce as password
+22:18:35.360 [TestNG-tests-2] DEBUG resources.Base - Selected dropdown
+22:18:35.406 [TestNG-tests-1] DEBUG resources.Base - Landed on home page
+22:18:35.578 [TestNG-tests-1] INFO  resources.Base - Landed on login page
+22:18:35.664 [TestNG-tests-1] DEBUG resources.Base - Passed performance_glitch_user as username
+22:18:35.724 [TestNG-tests-2] DEBUG resources.Base - Checked out
+22:18:35.843 [TestNG-tests-1] DEBUG resources.Base - Passed secret_sauce as password
+22:18:36.026 [TestNG-tests-2] DEBUG resources.Base - Landed on check out page
+22:18:36.175 [TestNG-tests-2] INFO  resources.Base - Calculated cost is: 45.98
+22:18:36.204 [TestNG-tests-2] INFO  resources.Base - Actual cost is: 45.98
+22:18:36.204 [TestNG-tests-2] DEBUG resources.Base - Prices match
+22:18:36.485 [TestNG-tests-2] DEBUG resources.Base - Checked out
+22:18:36.642 [TestNG-tests-2] INFO  resources.Base - Closed browser
+22:18:40.918 [TestNG-tests-1] DEBUG resources.Base - Landed on home page
