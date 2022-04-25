@@ -36,7 +36,7 @@ public class Base {
 		
 		String browserName = prop.getProperty("browser");
 		
-		//String browserName = System.getProperty("browser"); //to send parameter from maven (command prompt)
+		//String browserName = System.getProperty("browser"); //to send parameter from maven command
 		//mvn test -Dbrowser=chrome
 		
 		
