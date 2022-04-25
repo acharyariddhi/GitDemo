@@ -8,155 +8,21 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num attn">4</td><td class="num">0</td><td class="num">0</td><td class="num">58</td><td></td><td></td></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Home Page Test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">34,371</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Login Test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">38,407</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">8</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">72,778</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">framework.tests.LoginPageTest</td><td><a href="#m0">setUp</a></td><td rowspan="1">1650300600443</td><td rowspan="1">6</td></tr><tr><th colspan="4">Default test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="5">framework.tests.LoginPageTest</td><td><a href="#m1">setData</a></td><td rowspan="4">1650300600479</td><td rowspan="4">0</td></tr><tr class="skippedeven"><td><a href="#m2">setData</a></td></tr><tr class="skippedeven"><td><a href="#m3">setData</a></td></tr><tr class="skippedeven"><td><a href="#m4">setData</a></td></tr><tr class="skippedeven"><td><a href="#m5">tearDown</a></td><td rowspan="1">1650300600496</td><td rowspan="1">0</td></tr><tr><th colspan="4">Default test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="4">framework.tests.LoginPageTest</td><td><a href="#m6">checkLoginPage</a></td><td rowspan="4">1650300600484</td><td rowspan="4">0</td></tr><tr class="skippedeven"><td><a href="#m7">checkLoginPage</a></td></tr><tr class="skippedeven"><td><a href="#m8">checkLoginPage</a></td></tr><tr class="skippedeven"><td><a href="#m9">checkLoginPage</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Home Page Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">framework.tests.PageTests</td><td><a href="#m0">addItems</a></td><td rowspan="1">1650893094846</td><td rowspan="1">532</td></tr><tr class="passedeven"><td><a href="#m1">checkDropdown</a></td><td rowspan="1">1650893093780</td><td rowspan="1">551</td></tr><tr class="passedeven"><td><a href="#m2">checkOut</a></td><td rowspan="1">1650893095604</td><td rowspan="1">142</td></tr><tr class="passedeven"><td><a href="#m3">selectItems</a></td><td rowspan="1">1650893086214</td><td rowspan="1">7020</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Login Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">framework.tests.LoginPageTest</td><td><a href="#m4">checkLoginPage</a></td><td rowspan="4">1650893095560</td><td rowspan="4">5292</td></tr><tr class="passedeven"><td><a href="#m5">checkLoginPage</a></td></tr><tr class="passedeven"><td><a href="#m6">checkLoginPage</a></td></tr><tr class="passedeven"><td><a href="#m7">checkLoginPage</a></td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">framework.tests.LoginPageTest#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
-	at resources.Base.initialiseDriver(Base.java:43)
-	at framework.tests.LoginPageTest.setUp(LoginPageTest.java:21)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.runSuites(TestNG.java:1092)
-	at org.testng.TestNG.run(TestNG.java:1060)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">framework.tests.LoginPageTest#setData</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">framework.tests.LoginPageTest#setData</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">framework.tests.LoginPageTest#setData</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">framework.tests.LoginPageTest#setData</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">framework.tests.LoginPageTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">framework.tests.LoginPageTest#checkLoginPage</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>locked_out_user</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
-	at resources.Base.initialiseDriver(Base.java:43)
-	at framework.tests.LoginPageTest.setUp(LoginPageTest.java:21)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.runSuites(TestNG.java:1092)
-	at org.testng.TestNG.run(TestNG.java:1060)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">framework.tests.LoginPageTest#checkLoginPage</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>problem_user</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
-	at resources.Base.initialiseDriver(Base.java:43)
-	at framework.tests.LoginPageTest.setUp(LoginPageTest.java:21)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.runSuites(TestNG.java:1092)
-	at org.testng.TestNG.run(TestNG.java:1060)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">framework.tests.LoginPageTest#checkLoginPage</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>performance_glitch_user</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
-	at resources.Base.initialiseDriver(Base.java:43)
-	at framework.tests.LoginPageTest.setUp(LoginPageTest.java:21)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.runSuites(TestNG.java:1092)
-	at org.testng.TestNG.run(TestNG.java:1060)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">framework.tests.LoginPageTest#checkLoginPage</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>standard_user</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
-	at resources.Base.initialiseDriver(Base.java:43)
-	at framework.tests.LoginPageTest.setUp(LoginPageTest.java:21)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.runSuites(TestNG.java:1092)
-	at org.testng.TestNG.run(TestNG.java:1060)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Home Page Test</h2><h3 id="m0">framework.tests.PageTests#addItems</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">framework.tests.PageTests#checkDropdown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">framework.tests.PageTests#checkOut</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">framework.tests.PageTests#selectItems</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Login Test</h2><h3 id="m4">framework.tests.LoginPageTest#checkLoginPage</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>performance_glitch_user</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">framework.tests.LoginPageTest#checkLoginPage</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>standard_user</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">framework.tests.LoginPageTest#checkLoginPage</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>locked_out_user</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">framework.tests.LoginPageTest#checkLoginPage</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>problem_user</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

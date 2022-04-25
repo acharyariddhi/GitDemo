@@ -34,9 +34,9 @@ public class Base {
 		prop = new Properties();
 		prop.load(fis);
 		
-		String browserName = prop.getProperty("browser");
+		//String browserName = prop.getProperty("browser");
 		
-		//String browserName = System.getProperty("browser"); //to send parameter from maven command
+		String browserName = System.getProperty("browser"); //to send parameter from maven command
 		//mvn test -Dbrowser=chrome
 		
 		

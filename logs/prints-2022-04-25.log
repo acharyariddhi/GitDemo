@@ -1,0 +1,13 @@
+18:56:17.009 [TestNG-tests-2] DEBUG resources.Base - Checked out
+18:56:17.036 [TestNG-tests-1] INFO  resources.Base - Landed on login page
+18:56:17.112 [TestNG-tests-1] DEBUG resources.Base - Passed problem_user as username
+18:56:17.185 [TestNG-tests-1] DEBUG resources.Base - Passed secret_sauce as password
+18:56:17.249 [TestNG-tests-1] DEBUG resources.Base - Landed on home page
+18:56:17.326 [TestNG-tests-2] DEBUG resources.Base - Landed on check out page
+18:56:17.366 [TestNG-tests-1] INFO  resources.Base - Landed on login page
+18:56:17.437 [TestNG-tests-2] INFO  resources.Base - Calculated cost is: 45.98
+18:56:17.452 [TestNG-tests-1] DEBUG resources.Base - Passed performance_glitch_user as username
+18:56:17.463 [TestNG-tests-2] INFO  resources.Base - Actual cost is: 45.98
+18:56:17.476 [TestNG-tests-2] DEBUG resources.Base - Prices match
+18:56:17.521 [TestNG-tests-1] DEBUG resources.Base - Passed secret_sauce as password
+18:56:17.537 [TestNG-tests-2] DEBUG resources.Base - Checked out
